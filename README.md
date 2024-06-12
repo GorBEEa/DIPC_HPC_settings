@@ -106,7 +106,7 @@ mamba create --name "myenvname" bioconductor-dada2
 mamba activate ENV_NAME
 
 # Deactivate an environment
-mama deactivate
+mamba deactivate
 
 # Adding/Updating software
 mamba install -n ENV_NAME PACKAGE
