@@ -15,7 +15,7 @@ ssh <username>@hyperion.sw.ehu.es
 <p>
 </details>
 
-## 2. Working with modules
+## 2. Working with modules :toolbox:
 <details><summary>Tips for working with modules on the Cluster</summary>
 <p>
   
