@@ -116,7 +116,7 @@ mamba update -n ENV_NAME --all
 ````shell
 # Activate the environment
 mamba activate dada2
-# Star R (v. 4.3)
+# Start R (v. 4.3)
 R
 # Install Bioconductor Packages
 if (!require("BiocManager", quietly = TRUE))
