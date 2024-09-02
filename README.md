@@ -98,6 +98,9 @@ conda config --set channel_priority strict
 4. Create a new conda environment. You have to replace "myenvname" by a reaseonbale name (e.g. dada2)
 ````shell
 mamba create --name "myenvname" bioconductor-dada2
+
+# Add other R packages to the environment
+mamba install conda-forge::r-tidyverse
 ````
 
 *Some tips to work with mamba/micromamba/conda. I will write all commands using **mamba** below, but the arguments are the same for the two others.*
