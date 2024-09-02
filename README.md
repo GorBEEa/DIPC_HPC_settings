@@ -84,9 +84,9 @@ These steps are only neccesary the first time we use the cluster. This commands 
 `````shell
 ssh <username>@hyperion.sw.ehu.es
 `````
-2. Load Mamba
+2. Load Python and Mamba
 ````shell
-module load Mamba
+module load Python Mamba
 `````
 3. Activate Bioconda channel
 `````shell
