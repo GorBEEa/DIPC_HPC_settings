@@ -116,30 +116,56 @@ mamba install -n ENV_NAME PACKAGE
 mamba update -n ENV_NAME --all
 `````
 5. Install dada2 in R
+   
+a) In the terminal
 ````shell
 # Activate the environment
 mamba activate dada2
 # Start R (v. 4.3)
 R
+`````
+
+b) In R
+````shell
 # Install Bioconductor Packages
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install(version = "3.18")
-# Check the lastest version of R you have installed. If you have the latest version of R (4.4) you should replace the bioconductor version to "3.19"
+# Check the lastest version of R you have installed.
+# If you have the latest version of R (4.4) you should replace the bioconductor version to "3.19"
 
 # Other sources of installation: https://benjjneb.github.io/dada2/dada-installation.html
 
 # Restart a new R session and check dada2 package by exploring documentation:
 
 quit()
-
+`````
+````shell
 R
-
+`````
+````shell
 library("dada2")
 
 help(package="dada2")
 ?derepFastq
 ?dada
+`````
+6. Install DECIPHER in R
+
+a) In the terminal
+````shell
+# Activate the environment
+mamba activate dada2
+# Start R (v. 4.3)
+R
+`````
+
+b) In R
+````shell
+# Install Bioconductor Packages
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("DECIPHER")
 `````
 <p>
 </details>
