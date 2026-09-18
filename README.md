@@ -74,7 +74,30 @@ More information at:
 <p>
 </details>
 
-## 4. Process amplicon sequences :dna:
+## 4. GitHub
+<details><summary>Configuring GitHub account in your cluster account</summary>
+<p>
+
+Verify git is installed:
+
+```shell
+git --version
+```
+
+Configure your Git username and email using the following commands, replacing Mark's name with your own. These details will be associated with any commits that you create:
+
+```shell
+git config --global user.name "Charles Darwin"
+git config --global user.email "charles.darwin@beagle.org"
+```
+
+More information at:
+- https://github.com/ljchueca/BC3-git-workshop
+
+<p>
+</details>
+
+## 5. Process amplicon sequences :dna:
 <details><summary>DADA2 first configuration</summary>
 <p>
 
